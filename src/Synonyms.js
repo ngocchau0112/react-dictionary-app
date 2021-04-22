@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function Synonyms(props) {
-  console.log(props.synomyms);
   if (props.synomyms) {
     return (
       <div className="synonyms mt-3">

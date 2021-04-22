@@ -66,3 +66,16 @@
 .h3 {
   font-family: "Oswald", sans-serif;
 }
+
+.photo {
+  margin: 20px 0;
+}
+
+img {
+  border-radius: 20px;
+}
+
+.footer {
+  font-family: "Source Code Pro", monospace;
+  font-size: 13px;
+}
