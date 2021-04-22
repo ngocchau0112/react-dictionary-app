@@ -1,6 +1,7 @@
 .container {
   width: 600px;
   margin: 30px auto;
+  border-radius: 20px;
 }
 
 .search {
@@ -13,4 +14,25 @@
 
 .link {
   padding: 0 5px;
+}
+
+.form-control {
+  text-align: center;
+}
+
+.example::first-letter {
+  text-transform: capitalize;
+}
+
+.word::first-letter {
+  text-transform: capitalize;
+}
+
+.synonyms-word {
+  border-radius: 70px;
+  margin: 5px;
+  padding: 5px;
+  background: #f5f5f5;
+  font-weight: 200;
+  text-align: center;
 }

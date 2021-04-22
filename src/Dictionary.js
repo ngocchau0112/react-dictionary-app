@@ -20,6 +20,7 @@ export default function Dictionary() {
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
     axios.get(apiUrl).then(handleResponse);
   }
+
   return (
     <div className="dictionary">
       <form
@@ -29,13 +30,9 @@ export default function Dictionary() {
         <input
           type="search"
           className="form-control form-control-lg"
-          placeholder="Enter a word"
+          placeholder="Search"
+          autoComplete="none"
           onChange={handleKeyword}
-        />
-        <input
-          type="submit"
-          className="btn btn-outline-dark btn-lg ml-2"
-          value="Search"
         />
       </form>
       <Results results={results} />
